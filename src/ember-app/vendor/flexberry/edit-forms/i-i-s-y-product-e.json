@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Товары",
+  "name": "IISYProductE",
+  "className": "ProductE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-y-product",
+      "modelProjection": "ProductE"
+    }
+  ]
+}

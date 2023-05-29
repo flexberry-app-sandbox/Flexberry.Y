@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Client",
+      "projection": "ClientL",
+      "detailModelName": null
+    },
+    {
+      "master": "product",
+      "displayAttributeName": "name",
+      "required": true,
+      "relationName": "Saleitem.Product",
+      "projection": "ProductL",
+      "detailModelName": "i-i-s-y-saleitem"
+    }
+  ],
+  "external": false,
+  "caption": "Продажи",
+  "name": "IISYSaleE",
+  "className": "SaleE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-y-sale",
+      "modelProjection": "SaleE"
+    }
+  ]
+}

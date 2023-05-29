@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-y-sale-e",
+  "editForm": "i-i-s-y-sale-e",
+  "external": false,
+  "caption": "Продажи",
+  "name": "IISYSaleL",
+  "className": "SaleL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-y-sale",
+      "modelProjection": "SaleL"
+    }
+  ]
+}

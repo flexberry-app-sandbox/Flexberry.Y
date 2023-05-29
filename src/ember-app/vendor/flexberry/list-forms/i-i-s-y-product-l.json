@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-y-product-e",
+  "editForm": "i-i-s-y-product-e",
+  "external": false,
+  "caption": "Товары",
+  "name": "IISYProductL",
+  "className": "ProductL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-y-product",
+      "modelProjection": "ProductL"
+    }
+  ]
+}

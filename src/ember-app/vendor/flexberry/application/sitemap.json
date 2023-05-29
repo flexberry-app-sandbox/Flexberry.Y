@@ -1,0 +1,44 @@
+﻿{
+  "applicationCaption": "Y",
+  "applicationTitle": "Y",
+  "items": [
+    {
+      "link": null,
+      "menuName": "супер-продажи",
+      "caption": "Супер продажи",
+      "title": "Супер продажи",
+      "children": [
+        {
+          "link": "i-i-s-y-sale-l",
+          "menuName": null,
+          "caption": "Продажи",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": null,
+          "menuName": "справочники",
+          "caption": "Справочники",
+          "title": "Справочники",
+          "children": [
+            {
+              "link": "i-i-s-y-client-l",
+              "menuName": null,
+              "caption": "Клиенты",
+              "title": "Client",
+              "children": null
+            },
+            {
+              "link": "i-i-s-y-product-l",
+              "menuName": null,
+              "caption": "Товары",
+              "title": "Product",
+              "children": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

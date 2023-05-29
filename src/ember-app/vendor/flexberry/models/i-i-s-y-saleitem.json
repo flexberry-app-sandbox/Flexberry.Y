@@ -1,0 +1,77 @@
+﻿{
+  "name": "IISYSaleitem",
+  "modelName": "i-i-s-y-saleitem",
+  "className": "Saleitem",
+  "nameSpace": "IIS.Y",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "amount",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "product",
+      "relatedTo": "i-i-s-y-product",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "sale",
+      "relatedTo": "i-i-s-y-sale",
+      "inverse": "saleitem"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "SaleitemE",
+      "modelName": "i-i-s-y-saleitem",
+      "attrs": [
+        {
+          "name": "amount",
+          "caption": "Количество",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Name",
+          "lookupValueField": "name",
+          "relationName": "Product",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "name",
+              "caption": "Товар",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Товар",
+          "name": "product",
+          "relatedTo": "i-i-s-y-product",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
